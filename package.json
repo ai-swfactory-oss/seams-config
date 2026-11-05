@@ -1,0 +1,16 @@
+{
+  "name": "seams-config-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "seams-config workspace: seams for configuration-file tools (yamllint, Taplo and Kustomize).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-swfactory-oss/seams-config.git"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}
