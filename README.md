@@ -2,7 +2,7 @@
 
 Seams for configuration-file tools: yamllint, Taplo and Kustomize. Each package is a typed SDK seam over one tool, with a fake under `./testing`.
 
-The code arrives by migration from the private monorepo `ai-swfactory/seams`; until then each package is a guarded skeleton.
+This repository holds only the guarded skeleton so far: `createYamllint` returns a seam that reports no problems, `createTaplo` returns a seam that reports no diagnostics, `createKustomize` returns a seam that builds no manifests, and each package's `./testing` holds a fake of its seam.
 
 ## Packages
 
