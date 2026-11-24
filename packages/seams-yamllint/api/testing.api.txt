@@ -1,0 +1,1 @@
+createFakeYamllint: const createFakeYamllint: (result?: YamllintResult) => Yamllint

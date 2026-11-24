@@ -1,0 +1,4 @@
+Taplo: interface Taplo { readonly check: () => TaploCheckResult; }
+TaploCheckResult: interface TaploCheckResult { readonly diagnostics: readonly TaploDiagnostic[]; }
+TaploDiagnostic: interface TaploDiagnostic { readonly path: string; readonly line: number; readonly column: number; readonly message: string; }
+createTaplo: const createTaplo: () => Taplo

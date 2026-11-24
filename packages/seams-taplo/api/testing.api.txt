@@ -1,0 +1,1 @@
+createFakeTaplo: const createFakeTaplo: (result?: TaploCheckResult) => Taplo

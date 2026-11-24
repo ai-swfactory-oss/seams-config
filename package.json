@@ -1,7 +1,6 @@
 {
   "name": "seams-config-monorepo",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "license": "MIT",
   "description": "seams-config workspace: seams for configuration-file tools (yamllint, Taplo and Kustomize).",

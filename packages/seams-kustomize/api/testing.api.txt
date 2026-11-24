@@ -1,0 +1,1 @@
+createFakeKustomize: const createFakeKustomize: (result?: KustomizeBuildResult) => Kustomize

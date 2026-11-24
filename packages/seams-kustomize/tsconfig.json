@@ -49,6 +49,9 @@
       ],
       "vitest": [
         "./.guard/node_modules/vitest"
+      ],
+      "vitest/*": [
+        "./.guard/node_modules/vitest/*"
       ]
     }
   },

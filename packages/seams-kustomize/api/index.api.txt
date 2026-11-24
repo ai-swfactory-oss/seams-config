@@ -1,0 +1,3 @@
+Kustomize: interface Kustomize { readonly build: () => KustomizeBuildResult; }
+KustomizeBuildResult: interface KustomizeBuildResult { readonly manifests: string; }
+createKustomize: const createKustomize: () => Kustomize

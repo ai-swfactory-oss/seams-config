@@ -1,0 +1,4 @@
+Yamllint: interface Yamllint { readonly lint: () => YamllintResult; }
+YamllintProblem: interface YamllintProblem { readonly path: string; readonly line: number; readonly column: number; readonly level: 'error' | 'warning'; readonly rule: string; readonly message: string; }
+YamllintResult: interface YamllintResult { readonly problems: readonly YamllintProblem[]; }
+createYamllint: const createYamllint: () => Yamllint

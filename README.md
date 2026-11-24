@@ -1,14 +1,12 @@
 # seams-config
 
-Seams for configuration-file tools: yamllint, Taplo and Kustomize. Each package is a typed SDK seam over one tool, with a fake under `./testing`.
-
-This repository holds only the guarded skeleton so far: `createYamllint` returns a seam that reports no problems, `createTaplo` returns a seam that reports no diagnostics, `createKustomize` returns a seam that builds no manifests, and each package's `./testing` holds a fake of its seam.
+This repository moved: its yamllint seam is now developed in the yamllint tool repository, its other seams are retired, and this repository receives no further changes.
 
 ## Packages
 
-- `@ai-swfactory-oss/seams-yamllint`: the seam over yamllint.
-- `@ai-swfactory-oss/seams-taplo`: the seam over Taplo.
-- `@ai-swfactory-oss/seams-kustomize`: the seam over Kustomize.
+- `@ai-swfactory-oss/seams-yamllint`: moved to [ai-swfactory-oss/yamllint](https://github.com/ai-swfactory-oss/yamllint).
+- `@ai-swfactory-oss/seams-taplo`: the Taplo seam is retired, with no successor.
+- `@ai-swfactory-oss/seams-kustomize`: the Kustomize seam is retired, with no successor.
 
 ## Licence
 
